@@ -5,6 +5,7 @@ const initialState = {
     orders: [],
     loading: false,
     purchased: false,
+    building: false,
 };
 
 const purchaseInit = (state, action) => {
